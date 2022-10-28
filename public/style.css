@@ -106,3 +106,23 @@ textarea{
   font-size: 1.2em;
   cursor: pointer;
 }
+@media screen and (max-width: 920px) {
+  nav h1{
+    font-size: 4vmin;
+  }
+  nav p{
+    font-size: 2.2vmin;
+  }
+  nav a{
+    font-size: 2.2vmin;
+  }
+}
+@media screen and (max-width: 550px) {
+  nav {
+    flex-direction: column;
+  }
+  nav h1,nav p{
+    margin-bottom: 15px;
+  }
+
+  }
